@@ -43,3 +43,11 @@ This project is a Python-based implementation that interacts with Free Fire's in
 ## License
 
 MIT License — free to use, modify, and distribute.
+
+## Example Usage
+
+You can test the API using `curl`:
+
+```bash
+curl -X GET 'http://127.0.0.1:3000/api/account?uid=1813014615&region=ind'
+```
